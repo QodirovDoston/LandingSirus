@@ -4,13 +4,12 @@ import TextItem from "../reusable/TextItem"
 import {Mentors} from "../../utils/Constants"
 import Card from "../Card";
 
-import Devos from "../../assets/png/Devops.png"
 import IMG1 from "../../assets/png/IMG1.png"
 import IMG3 from "../../assets/png/IMG3.png"
 
  const index = () => {
   
-  const val = [Devos,IMG1,IMG3,IMG1,IMG1,IMG3]
+  const val = [IMG3,IMG1,IMG3,IMG1,IMG3,IMG1]
   for(let i = 0; i <Mentors.length;i++){
     Mentors[i].img = val[i];
   }

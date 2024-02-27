@@ -13,7 +13,7 @@ const NavbarPage = () => {
   return (
     <nav className='sticky top-0 z-10 bg-white px-3 shadow-xl' 
     data-aos-anchor-placement="top-bottom">
-      <div className='w-[85%] mx-auto py-[10px] sm:px-[30px] px-[10px]'>
+      <div className='xl:w-[85%] w-[98%] mx-auto xl:py-[10px] py-[2px] sm:px-[30px] px-[1px]'>
         <nav className="bg-[#ffffff] border-gray-200  dark:bg-gray-900 dark:border-gray-700 ">
           <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto pt-4">
             <a href="#home" className="gap-1 flex items-center mx-2 mb-3">

@@ -18,7 +18,8 @@ const index = (props: PropType) => {
     return (
         <div className={`bg-white mt-[10px] border border-gray-200 rounded-lg shadow hover:shadow-xl duration-700 ${props.classAdd}`}>
             <span className="flex justify-center items-center">
-                <img className={ props.value.type == "mentor" ? `rounded-t-lg  w-[90%] h-[250px]  object-contain mt-[5px] cursor-pointer` : `rounded-t-lg w-[100%] h-[200px] object-contain   cursor-pointer` } src={props.value.img} alt="" />
+                <img 
+                className={ props.value.type == "mentor" ? `rounded-t-lg  w-[100%] h-[250px]  object-contain mt-[5px] cursor-pointer` : `rounded-t-lg w-full h-[230px]  cursor-pointer` } src={props.value.img} alt="" />
             </span>
             <div className="p-5">
                 {props.value.type == "course" ? <span className="flex justify-between items-center">

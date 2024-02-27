@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
-import { PreFooter, Footer, NavbarPage, Header, Carusel, OnlineCourse, OurMentor } from "./components"
+import { PreFooter, Footer, NavbarPage, Header, Carusel, OnlineCourse, OurMentor ,OurSertification} from "./components"
 
 function App() {
   useEffect(() => {
@@ -15,6 +15,7 @@ function App() {
       <Header />
       <OnlineCourse />
       <OurMentor />
+      <OurSertification/>
       <PreFooter />
       <Footer />
     </>

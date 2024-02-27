@@ -11,7 +11,7 @@ const index = () => {
                     <Text text="courses" />
                     <TextItem w="sm:w-[600px]" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
                 </span>
-                <ul className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-[10px] items-center">
+                <ul className="grid xl:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-[10px] items-center">
                     {Courses.map((value)=>{
                         return <Card value={value}  classAdd="mt-[20px] pb-[20px]" key={value.id}/>
                     })}

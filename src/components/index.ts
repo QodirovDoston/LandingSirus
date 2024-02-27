@@ -5,6 +5,7 @@ import Header from "./Header/Header"
 import Carusel from "./Carusel/Carusel"
 import OnlineCourse from "./OnlineCourse"
 import OurMentor from "./OurMentor"
+import OurSertification from "./OurSertification"
 export{
     PreFooter,
     Footer,
@@ -12,5 +13,6 @@ export{
     Header,
     Carusel,
     OnlineCourse,
-    OurMentor
+    OurMentor,
+    OurSertification
 }
