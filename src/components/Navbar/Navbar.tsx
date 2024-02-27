@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import logo from '../../../public/logss.png'
 import { AiOutlineMenu } from 'react-icons/ai';
 import { NavsIcon, ulli } from "../../utils/Constants"
+import logo from '../../../public/sirius.png'
 
 
 
@@ -17,8 +17,7 @@ const NavbarPage = () => {
         <nav className="bg-[#ffffff] border-gray-200  dark:bg-gray-900 dark:border-gray-700 ">
           <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto pt-4">
             <a href="#home" className="gap-1 flex items-center mx-2 mb-3">
-              <img src={logo} className="w-[50px] object-contain" alt="Flowbite Logo" />
-              <h1 className='text-gray-700 text-3xl mt-2 font-extrabold'>iruis</h1>
+              <img src={logo} className="xl:w-[165px] lg:w-[100px] w-[75px]" alt="Flowbite Logo" />
             </a>
             <button onClick={handleNav} data-collapse-toggle="navbar-multi-level" type="button" className=" inline-flex items-center p-2 mx-3 mb-3 text-sm text-black rounded-lg lg:hidden flex  mt-2" aria-controls="navbar-multi-level" aria-expanded="false">
               <AiOutlineMenu className=" w-[50px] h-[35px] cursor-pointer" />
@@ -45,11 +44,11 @@ const NavbarPage = () => {
             {/* leptop  */}
             <ul className='lg:flex hidden md:gap-1 gap-0 items-center justify-between mr-[-6]   '>
                 {ulli.map((val, ind) => {
-                  return <a href={val.link} key={ind} className='text-xl hover:text-white rounded-3xl hover:shadow-3xl hover:bg-blue-400 px-5 py-2 shadow-3xl duration-700 cursor-pointer underline-dotted' >{val.name}</a>
+                  return <a href={val.link} key={ind} className='text-xl hover:text-white rounded-3xl hover:shadow-3xl hover:bg-blue-400 px-5 py-2 shadow-3xl duration-700 cursor-pointer hover:shadow-2xl' >{val.name}</a>
                 })}
               {/* <SelectTransla /> */}
               <a className='' href="tel:+99895-007-70-50">
-                <p className='p-1 text-white bg-blue-700 px-6 py-3 rounded-3xl text-[19px] font-light'>+99895-007-70-50</p>
+                <p className='p-1 text-white bg-[#086CF9] hover:bg-blue-800 hover:shadow-2xl px-6 py-3 rounded-3xl text-[19px] font-light'>+99895-007-70-50</p>
               </a>
             </ul>
           </div>

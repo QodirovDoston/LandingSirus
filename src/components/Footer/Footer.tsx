@@ -1,5 +1,5 @@
 import { NavsIcon } from "../../utils/Constants";
-import logo from '../../../public/logss.png'
+import logo from '../../../public/sirius.png'
 
 export const Footer = () => {
   return (
@@ -11,9 +11,10 @@ export const Footer = () => {
               <h4 className="font-bold xl:text-[25px] text-[18px] text-gray-700 leading-[39px]">
                 Education
               </h4>
-              <a href="#" className="gap-1 flex items-center bg-light-200 px-4 xl:w-[200px] w-[110px] rounded-2xl shadow">
-              <img src={logo} className="xl:w-[50px] w-[30px] object-contain" alt="Flowbite Logo" />
-              <h1 className='text-gray-700 xl:text-3xl text-xl mt-1 font-extrabold'>iruis</h1>
+              <a href="#"  >
+                <div className="bg-light-200 px-2 py-2 w-24 flex justify-center rounded-3xl shadow-2xl">
+              <img src={logo} className="xl:w-[80px] w-[50px] rounded-3xl" alt="Flowbite Logo" />
+                </div>
             </a>
             </div>
             <div className="items-center gap-3">

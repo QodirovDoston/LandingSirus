@@ -11,7 +11,7 @@ const Header = () => {
           <p className="md:text-[17px] text-[13px] leading-normal font-normal sm:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies at diam magnis faucibus et faucibus gravida.  malesuada fauci bus iaculis eu. Fusce est, consectetur tempor penatibus sed. Ut dolor, vulputate quam nec aliquam aliquam nisl. Auctor eros, iaculis quam nisi, </p>
           <p className="md:text-[20px] text-[15px] leading-snug font-normal  sm:text-left text-center pt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. </p>
           <a href="#contact">
-          <button className="px-6 py-4 bg-[#086CF9] text-white sm:block hidden rounded-sm mt-[30px]"> {t("text.learn")}</button>
+          <button className="px-6 py-4 bg-[#086CF9] text-white sm:block hidden rounded-sm mt-[30px] hover:bg-blue-800 hover:shadow-2xl"> {t("text.learn")}</button>
           </a>
         </div>
           <iframe className="h-[400px] w-full" src="https://www.youtube.com/embed/VlOTwD4Zy0E" title="Web Dasturchi kim va Web dasturlash necha turga bo&#39;linadi | | Muhammadaziz Esonboyev"></iframe>
