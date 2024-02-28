@@ -19,14 +19,22 @@ const Header = () => {
 
       <div id="howtoWork" className="w-[85%] mx-auto">
       <h1 className="text-5xl font-semibold text-center pt-20">{t("text.work")}</h1>
-      <p className="text-center py-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Aliquam et hendrerit euismod fusce sit. </p>
-      <div className="grid xl:grid-cols-4 md:grid-cols-3 xs:grid-cols-2 grid-cols-1">
+      <p className="text-center py-10">Bizning o'quv kurslarimiz sizga tushunishizga onson va <br /> malakali o'qituvchilardan talim olasiz. </p>
+      <div className="flex justify-between flex-wrap justify-center">
         {headerpage.map((item, index) => {
           return (
             <div key={index} className={item.maindivstyle}>
               <img className="w-[100px] h-[90px] m-auto" src={item.img} alt="" />
               <h1 className={item.headingstyle}>{t(item.text)}</h1>
-              <p className="text-center text-gray-600 py-6">Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p>
+              <p className="text-center text-gray-600 py-6">
+                <ul>
+                  {item.ul.map((it, index)=>{
+                  return(
+                    <li key={index}>{it}</li>
+                    )
+                  })}
+                </ul>
+              </p>
             </div>
           )
         })}

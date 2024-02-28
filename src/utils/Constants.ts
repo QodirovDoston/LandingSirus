@@ -64,17 +64,17 @@ export const slides = [
 ];
 export const Sele = [
   {
-    text: "Teachers",
+    text: "O'qituvchilar",
     img: "../../public/inst1.png",
     pricee: 8
   },
   {
-    text: "Students",
+    text: "Talabalar",
     img: "../../public/succ2.png",
     pricee: 400
   },
   {
-    text: "Courses",
+    text: "Kurslar",
     img: "../../public/Vector3.png",
     pricee: 1400
   }
@@ -85,25 +85,29 @@ export const headerpage = [
     maindivstyle: "max-w-[280px] font-semibold ",
     img: "https://avatars.mds.yandex.net/i?id=cd43a0394fcca5f5b124d2c19e34506ff1969434-9213930-images-thumbs&n=13",
     headingstyle: "text-center text-[24px] pt-4",
-    text: "text.heading1"
+    text: "text.heading1",
+    ul:["Beginner English Course","Basic English Language Course","Introduction to English Language"]
   },
   {
     maindivstyle: "max-w-[280px] font-semibold",
     img: "https://img.freepik.com/free-vector/notebook-concept-illustration_114360-387.jpg?w=740&t=st=1709016694~exp=1709017294~hmac=f7d0f1681aa4a504ba039465735b5a44125c130f5aa24807ddbe6db83937f0d6",
     headingstyle: "text-center text-[24px] pt-4",
-    text: "text.heading2"
+    text: "text.heading2",
+    ul:["Intermediate English Course","Upper-Intermediate English Course","English for Everyday Communication"]
   },
   {
     maindivstyle: "max-w-[280px] font-semibold",
     img: "https://img.freepik.com/free-vector/online-courses-concept_23-2148529257.jpg?t=st=1709016763~exp=1709020363~hmac=f23c8922f1bb36fd0439f22a09e8a64b170f0b51d50dbb1efba228f50cc88af6&w=740",
     headingstyle: "text-center text-[24px] pt-4",
-    text: "text.heading3"
+    text: "text.heading3",
+    ul:["Academic English Course","Business English Course","Conversational English Course"]
   },
   {
     maindivstyle: "max-w-[280px] font-semibold",
     img: "https://img.freepik.com/premium-vector/young-people-study-clock-vector-illustration_660463-48.jpg?w=826",
     headingstyle: "text-center text-[24px] pt-4",
-    text: "text.heading4"
+    text: "text.heading4",
+    ul:["IELTS Preparation Course","TOEFL Preparation Course","Cambridge Exam Preparation Course"]
   }
 ];
 
@@ -234,4 +238,4 @@ export const CaruselWorld1 = [
   }
 ];
 
-export const ulli = [{name:"How To Work", link:"#howtoWork"},{name:"Courses", link:"#courses"},{name:"about Mentors", link:"#mentors"},{name:"Contact", link:"#contact"}];
+export const ulli = [{name:"O'quv tizimi", link:"#howtoWork"},{name:"Kurslar", link:"#courses"},{name:"Mentorlar haqida", link:"#mentors"},{name:"Aloqa", link:"#contact"}];
